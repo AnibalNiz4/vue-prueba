@@ -65,18 +65,18 @@
 </template>
 
 <script setup lang="ts">
-  import { useRoute } from 'vue-router';
-  import FetchApi from 'src/FetchApi'
+  // import { useRoute } from 'vue-router';
+  // import FetchApi from 'src/FetchApi'
 
-  const countryName = useRoute()
+  // const countryName = useRoute()
 
-  const { data } = FetchApi(`https://restcountries.com/v3.1/name/${countryName.params.country}`)
+  // const { data } = FetchApi(`https://restcountries.com/v3.1/name/${countryName.params.country}`)
 
-  console.log(data);
+  // console.log(data);
 
-  function btnMap (map: string) {
-    window.location.href = map
-  }
+  // function btnMap (map: string) {
+  //   window.location.href = map
+  // }
 
 
 </script>
