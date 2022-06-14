@@ -16,5 +16,11 @@ export const linksList = [
     //caption: 'github.com/quasarframework',
     icon: 'las la-file-word',
     link: 'otra',
+  },
+  {
+    title: 'List',
+    //caption: 'github.com/quasarframework',
+    icon: 'las la-list',
+    link: 'list',
   }
 ];

@@ -4,11 +4,11 @@
     <CardCss
       v-for="(data, index) in countriesArray"
       :key="index"
-      :title="data.name.common"
-      :img="data.flags.png"
-      :desc="data.region"
-      :text1="data.population"
-      :text2="data.subregion"
+      :title="data['name']['common']"
+      :img="data['flags']['png']"
+      :desc="data['region']"
+      :text1="data['population']"
+      :text2="data['subregion']"
     />
   </div>
 </template>
