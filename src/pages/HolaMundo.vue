@@ -1,5 +1,4 @@
 <template>
-  <div>Probando</div>
   <div class="containerCards">
     <CardCss
       v-for="(data, index) in countriesArray"

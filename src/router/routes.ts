@@ -9,7 +9,8 @@ const routes: RouteRecordRaw[] = [
       { path: 'hola', name: 'hola' , component: () => import('pages/HolaMundo.vue') },
       { path: 'otra', name: 'otra' , component: () => import('pages/OtraPagina.vue') },
       { path: 'otra/:country', name: 'country' , component: () => import('pages/CountryData.vue') },
-      { path: 'list', name: 'list' , component: () => import('pages/FormList.vue') }
+      { path: 'list', name: 'list' , component: () => import('pages/FormList.vue') },
+      { path: 'update/:id', name: 'update' , component: () => import('pages/UpdateTask.vue') }
     ]
   },
 
