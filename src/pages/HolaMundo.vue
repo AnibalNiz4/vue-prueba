@@ -24,7 +24,6 @@
       countriesStore.countriesLoading = true
       await countriesStore.getCountriesApi()
       countriesStore.countriesLoading = false
-      console.log(countriesStore.getCountries);
     }
   })
 

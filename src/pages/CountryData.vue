@@ -72,8 +72,6 @@
 
   const { data } = FetchApi(`https://restcountries.com/v3.1/name/${countryName.params.country}`)
 
-  console.log(data);
-
   function btnMap (map: string) {
     window.location.href = map
   }
